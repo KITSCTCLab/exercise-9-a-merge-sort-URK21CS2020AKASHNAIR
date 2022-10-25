@@ -32,13 +32,13 @@ def merge_sort(myList) -> None:
       k += 1
 
 # For all the remaining values 
-   while i < len(left):
+  while i < len(left):
       myList[k] = left[i] 
       i += 1
       k += 1
 
 
-   while j < len(right): 
+  while j < len(right): 
       myList[k]=right[j] 
       j += 1
       k += 1
