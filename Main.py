@@ -9,7 +9,7 @@ def merge_sort(myList) -> None:
     i = 0
     j = 0
     k = 0
-  while i < len(left) and j < len(right): 
+  while i < len(left) and j < len(right):
     if left[i] <= right[j]: 
       myList[k] = left[i]
       i += 1
@@ -18,13 +18,13 @@ def merge_sort(myList) -> None:
       j += 1
       k += 1
   while i < len(left):
-      myList[k] = left[i] 
-      i += 1
-      k += 1
+     myList[k] = left[i] 
+     i += 1
+     k += 1
   while j < len(right): 
-      myList[k]=right[j] 
-      j += 1
-      k += 1
+     myList[k]=right[j] 
+     j += 1
+     k += 1
 
 
 
