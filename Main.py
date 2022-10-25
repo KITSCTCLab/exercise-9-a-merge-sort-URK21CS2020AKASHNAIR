@@ -4,7 +4,8 @@ from typing import List
 def merge_sort(myList) -> None:
   if len(myList) > 1:
     mid = len(myList) // 2 
-    left = myList[:mid] right = myList[mid:]
+    left = myList[:mid] 
+    right = myList[mid:]
     i = 0
     j = 0
     k = 0
