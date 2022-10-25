@@ -19,7 +19,7 @@ def merge_sort(myList) -> None:
     k = 0
 
 
-  while i < len(left) and j < len(right): 
+   while i < len(left) and j < len(right): 
     if left[i] <= right[j]:
 # The value from the left half has been used 
       myList[k] = left[i]
