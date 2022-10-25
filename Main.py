@@ -18,13 +18,13 @@ def merge_sort(myList) -> None:
       j += 1
       k += 1
   while i < len(left):
-     myList[k] = left[i] 
-     i += 1
-     k += 1
-  while j < len(right): 
-     myList[k]=right[j] 
-     j += 1
-     k += 1
+    myList[k] = left[i] 
+    i += 1
+    k += 1
+  while j < len(right):
+    myList[k]=right[j] 
+    j += 1
+    k += 1
 
 
 
