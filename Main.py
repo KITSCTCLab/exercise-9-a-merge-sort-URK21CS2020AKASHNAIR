@@ -8,7 +8,8 @@ def merge_sort(myList) -> None:
 
 # Recursive call on each half merge_sort(left) merge_sort(right)
 
-# Two iterators for traversing the two halves i = 0
+# Two iterators for traversing the two halves 
+    i = 0
     j = 0
 
 
